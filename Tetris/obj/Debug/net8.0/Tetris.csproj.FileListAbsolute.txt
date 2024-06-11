@@ -1,0 +1,14 @@
+C:\Swinburne University of Technology\Swinburne Semester 1 2024\COS20007 - Object Oriented Programming\Custom Program\Tetris\obj\Debug\net8.0\Tetris.GeneratedMSBuildEditorConfig.editorconfig
+C:\Swinburne University of Technology\Swinburne Semester 1 2024\COS20007 - Object Oriented Programming\Custom Program\Tetris\obj\Debug\net8.0\Tetris.AssemblyInfoInputs.cache
+C:\Swinburne University of Technology\Swinburne Semester 1 2024\COS20007 - Object Oriented Programming\Custom Program\Tetris\obj\Debug\net8.0\Tetris.AssemblyInfo.cs
+C:\Swinburne University of Technology\Swinburne Semester 1 2024\COS20007 - Object Oriented Programming\Custom Program\Tetris\obj\Debug\net8.0\Tetris.csproj.CoreCompileInputs.cache
+C:\Swinburne University of Technology\Swinburne Semester 1 2024\COS20007 - Object Oriented Programming\Custom Program\Tetris\bin\Debug\net8.0\Tetris.exe
+C:\Swinburne University of Technology\Swinburne Semester 1 2024\COS20007 - Object Oriented Programming\Custom Program\Tetris\bin\Debug\net8.0\Tetris.deps.json
+C:\Swinburne University of Technology\Swinburne Semester 1 2024\COS20007 - Object Oriented Programming\Custom Program\Tetris\bin\Debug\net8.0\Tetris.runtimeconfig.json
+C:\Swinburne University of Technology\Swinburne Semester 1 2024\COS20007 - Object Oriented Programming\Custom Program\Tetris\bin\Debug\net8.0\Tetris.dll
+C:\Swinburne University of Technology\Swinburne Semester 1 2024\COS20007 - Object Oriented Programming\Custom Program\Tetris\bin\Debug\net8.0\Tetris.pdb
+C:\Swinburne University of Technology\Swinburne Semester 1 2024\COS20007 - Object Oriented Programming\Custom Program\Tetris\obj\Debug\net8.0\Tetris.dll
+C:\Swinburne University of Technology\Swinburne Semester 1 2024\COS20007 - Object Oriented Programming\Custom Program\Tetris\obj\Debug\net8.0\refint\Tetris.dll
+C:\Swinburne University of Technology\Swinburne Semester 1 2024\COS20007 - Object Oriented Programming\Custom Program\Tetris\obj\Debug\net8.0\Tetris.pdb
+C:\Swinburne University of Technology\Swinburne Semester 1 2024\COS20007 - Object Oriented Programming\Custom Program\Tetris\obj\Debug\net8.0\Tetris.genruntimeconfig.cache
+C:\Swinburne University of Technology\Swinburne Semester 1 2024\COS20007 - Object Oriented Programming\Custom Program\Tetris\obj\Debug\net8.0\ref\Tetris.dll
