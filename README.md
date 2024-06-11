@@ -25,14 +25,24 @@ The player will be presented with a grid-based game board where Tetriminos fall 
 
 ### Design Patterns (More details in reports folder)
 1. **Observer**
+- Tetris Custom Program represents the MVC architecture, where the Observer pattern is used to implement an event-driven architecture, decoupling the Model, View, and Controller components. The Event Manager (Observer) acts as the "middle-man" to handle the communication between these components, where one component reacts and changes based on the game events posted by other components instead of directly depending on each other. Changes in one component do not require modifications in others since the listeners update based on the game events, making the system easier to maintain and extend. New listeners like Game Logic can also be added at runtime, by providing a queue of Attach, Detach, and Game Events to avoid concurrent problems.
 2. **State**
+- The Tetris game states are modeled using the State design pattern to handle different game states such as Main Menu, Help, Ingame, Pause Menu, and Game Over. It allows for clean separation of state-specific behavior and easy transitions between different game states. Each state has distinct behaviors and transitions that can be encapsulated within separate state classes: Menu State can transition to Help State or Ingame State, and Ingame State can transition to Pause Menu and Game Over State. Pause Menu and Game Over state can transition to Ingame State or Menu State depending on the game events.
 3. **Decorator**
+- In the Tetris Custom Program, the Decorator pattern is used to extend the functionalities of the GameLogic class, such as implementing different game-ending conditions (e.g., a Blitz game mode that ends after 2 minutes or a 40 Lines game mode that ends after clearing 40 lines) and adding the ability to hold Tetriminos.
 4. **Factory Methods**
+- The Factory Method pattern is used to create different game states with complex configurations in the Tetris Custom Program. Each state (Main Menu, Help, Ingame, Pause Menu, Game Over) has distinct information like game buttons.
 5. **Builder**
+- It provides a way to construct a complex object by specifying its type and content through a construction process. The Builder pattern is used to create immutable game buttons. These buttons have a range of properties such as size, color, border size, border color, and text, making the telescoping constructor pattern cumbersome and error-prone.
 6. **Command**
+- In the Tetris Custom Program, the Command pattern is used to handle keyboard and mouse inputs. Each command corresponds to a specific game action, and the Event Manager (following the mentioned Observer pattern) posts different game events based on these commands. The Command pattern decouples the input handling from the game logic. The GameController does not need to know how each command is executed; it only needs to invoke the command.
 7. **Strategy**
+- In the Tetris Custom Program, the Strategy pattern is used to implement different queue random algorithms, and various display strategies for the queue, score, hold, extra display in the Ingame Drawer, and top five display in the Game Over Drawer. This setup ensures that different algorithms and display formats can be easily interchanged and extended, resulting in a more modular and easily extendable functionality. 
 8. **Singleton**
+- The Singleton pattern is used for the BestScoreManager class. This class is responsible for loading the best scores from a JSON file and saving the player's score to the JSON file. The Singleton pattern ensures that there is only one instance of BestScoreManager throughout the game, coordinating all actions related to score management.
 9. **Mediator**
+- The GameLogic class in the Tetris custom program acts as a mediator that decouples the EventManager from Grid, Tetrimino, ScoreProcessor, QueueProcessor, LevelProcessor, and TickProcessor. The GameLogic class centralizes interactions between various components as it receives events from the EventManager and decides how to process them with the grid, Tetrimino, score, queue, level, and tick processors. Moreover, the components themselves don’t need to directly depend on each other like Grid doesn’t need to know anything about Tetrimino and vice versa. The mediator pattern also simplifies interactions between objects, reducing potential errors and dependencies.
+- 
 ### 
 Videos 
 [6 mins video with talking](https://drive.google.com/file/d/1GK1tSVRb80M0J5ckxRpsm1i2wdEY3yGN/view?usp=sharing)
