@@ -24,15 +24,15 @@ The player will be presented with a grid-based game board where Tetriminos fall 
 * **Game Over** where the player can have a look at their top 5 scores/times of each game mode they are playing. They can type their name to save their current scores in this state.
 
 ### Design Patterns (More details in reports folder)
-1. Observer – Event Manager:
-2. State – Game State:
-3. Decorator – Game Logic Decorator:
-4. Factory Methods – Game State Factory, Game Command Processor Factory:
-5. Builder – Button Builder
-6. Command – Game Commands:
-7. Strategy – RandomStrategy, Extra/Queue/Score/HoldIngameDrawStrategy, …:
-8. Singleton – Best Score Manager:
-9. Mediator – Game Logic
+1. **Observer**
+2. **State**
+3. **Decorator**
+4. **Factory Methods**
+5. **Builder**
+6. **Command**
+7. **Strategy**
+8. **Singleton**
+9. **Mediator**
 ### 
 Videos 
 [6 mins video with talking](https://drive.google.com/file/d/1GK1tSVRb80M0J5ckxRpsm1i2wdEY3yGN/view?usp=sharing)
