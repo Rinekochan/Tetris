@@ -4,7 +4,7 @@
 
 This program is created in C# using SplashKit library by Viet Hoang Pham. This is my project for an unit during my undergraduate program. 
 
-### Tetris Functionalities (More details in report folder)
+### Tetris Functionalities
 The player will be presented with a grid-based game board where Tetriminos fall from the top of the screen.
 - **4 game modes in the game:** Classic, NES, 40 Lines, and Blitz with different game rules.
 - **The queue** is introduced to show the player what are the next pieces. The amount of queued Tetriminos being displayed is based on game mode (1 in Classic, NES; 5 in 40 Lines, Blitz).
@@ -23,7 +23,7 @@ The player will be presented with a grid-based game board where Tetriminos fall 
 * **Pause Menu** where the player can pause the current game. They can either continue their current game, restart to have a new one, or return to the Main Menu state.
 * **Game Over** where the player can have a look at their top 5 scores/times of each game mode they are playing. They can type their name to save their current scores in this state.
 
-### Design Patterns (More details in report folder)
+### Design Patterns
 1. **Observer**
 - Tetris Custom Program represents the MVC architecture, where the Observer pattern is used to implement an event-driven architecture, decoupling the Model, View, and Controller components. The Event Manager (Observer) acts as the "middle-man" to handle the communication between these components, where one component reacts and changes based on the game events posted by other components instead of directly depending on each other. Changes in one component do not require modifications in others since the listeners update based on the game events, making the system easier to maintain and extend. New listeners like Game Logic can also be added at runtime, by providing a queue of Attach, Detach, and Game Events to avoid concurrent problems.
 2. **State**
