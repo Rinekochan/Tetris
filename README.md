@@ -2,7 +2,7 @@
 
 ### Simple Tetris Game in C#
 
-This program is created in C# using SplashKit library by Viet Hoang Pham. This is my project for an unit during my undergraduate program. 
+This program is created in C# using SplashKit library by Viet Hoang Pham. This is my project for an unit (Object-Oriented Programming) during my undergraduate program. 
 
 ### Tetris Functionalities
 The player will be presented with a grid-based game board where Tetriminos fall from the top of the screen.
