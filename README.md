@@ -43,5 +43,5 @@ The player will be presented with a grid-based game board where Tetriminos fall 
 9. **Mediator**
 - The GameLogic class in the Tetris custom program acts as a mediator that decouples the EventManager from Grid, Tetrimino, ScoreProcessor, QueueProcessor, LevelProcessor, and TickProcessor. The GameLogic class centralizes interactions between various components as it receives events from the EventManager and decides how to process them with the grid, Tetrimino, score, queue, level, and tick processors. Moreover, the components themselves don’t need to directly depend on each other like Grid doesn’t need to know anything about Tetrimino and vice versa. The mediator pattern also simplifies interactions between objects, reducing potential errors and dependencies.
   
-### Videos 
+### Walkthrough videos 
 [6 mins video](https://drive.google.com/file/d/1GK1tSVRb80M0J5ckxRpsm1i2wdEY3yGN/view?usp=sharing)
