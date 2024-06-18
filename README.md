@@ -17,11 +17,11 @@ The player will be presented with a grid-based game board where Tetriminos fall 
 - The best score/fastest time is always displayed during the game. It’s loaded from the mentioned JSON file.
 - The game also plays background music, and it changes depending on the current state.
 - The game has 5 main states with different displays and controls:
-* **Main Menu** where the player can choose the game mode they want to play with different game rules. They can also click on the Help button to open Help state.
-* **Help** where the player can read about the controls, shortcuts, and game modes configurations/rules in the game.
-* **Ingame** where the player plays Tetris (the game logic).
-* **Pause Menu** where the player can pause the current game. They can either continue their current game, restart to have a new one, or return to the Main Menu state.
-* **Game Over** where the player can have a look at their top 5 scores/times of each game mode they are playing. They can type their name to save their current scores in this state.
+    - **Main Menu** where the player can choose the game mode they want to play with different game rules. They can also click on the Help button to open Help state.
+    - **Help** where the player can read about the controls, shortcuts, and game modes configurations/rules in the game.
+    - **Ingame** where the player plays Tetris (the game logic).
+    - **Pause Menu** where the player can pause the current game. They can either continue their current game, restart to have a new one, or return to the Main Menu state.
+    - **Game Over** where the player can have a look at their top 5 scores/times of each game mode they are playing. They can type their name to save their current scores in this state.
 
 ### Design Patterns
 1. **Observer**
