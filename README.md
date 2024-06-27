@@ -4,6 +4,9 @@ Please contact me if you want a detailed report via viethoang9314@gmail.com
 ### Simple Tetris Game in C#
 This program is created in C# using SplashKit library by Viet Hoang Pham. This is my project for an unit during my undergraduate program. 
 
+### Walkthrough videos 
+[6 mins video](https://drive.google.com/file/d/1GK1tSVRb80M0J5ckxRpsm1i2wdEY3yGN/view?usp=sharing)
+
 ### Tetris Functionalities
 The player will be presented with a grid-based game board where Tetriminos fall from the top of the screen.
 - **4 game modes in the game:** Classic, NES, 40 Lines, and Blitz with different game rules.
@@ -43,5 +46,3 @@ The player will be presented with a grid-based game board where Tetriminos fall 
 9. **Mediator**
 - The GameLogic class in the Tetris custom program acts as a mediator that decouples the EventManager from Grid, Tetrimino, ScoreProcessor, QueueProcessor, LevelProcessor, and TickProcessor. The GameLogic class centralizes interactions between various components as it receives events from the EventManager and decides how to process them with the grid, Tetrimino, score, queue, level, and tick processors. Moreover, the components themselves don’t need to directly depend on each other like Grid doesn’t need to know anything about Tetrimino and vice versa. The mediator pattern also simplifies interactions between objects, reducing potential errors and dependencies.
   
-### Walkthrough videos 
-[6 mins video](https://drive.google.com/file/d/1GK1tSVRb80M0J5ckxRpsm1i2wdEY3yGN/view?usp=sharing)
