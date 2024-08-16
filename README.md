@@ -1,5 +1,5 @@
 # Tetris Game
-This program is created in C# using SplashKit library by Viet Hoang Pham. This is my project for an unit during my undergraduate program. 
+This program is created in C# using SplashKit library by Viet Hoang Pham. 
 
 ### Walkthrough videos 
 [6 mins video](https://drive.google.com/file/d/1GK1tSVRb80M0J5ckxRpsm1i2wdEY3yGN/view?usp=sharing)
