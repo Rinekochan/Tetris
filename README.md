@@ -1,7 +1,4 @@
 # Tetris Game
-Please contact me if you want a detailed report via viethoang9314@gmail.com
-
-### Simple Tetris Game in C#
 This program is created in C# using SplashKit library by Viet Hoang Pham. This is my project for an unit during my undergraduate program. 
 
 ### Walkthrough videos 
