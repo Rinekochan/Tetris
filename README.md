@@ -1,8 +1,10 @@
 # Tetris Game
 This program is created in C# using SplashKit library by Viet Hoang Pham. 
 
-### Walkthrough videos 
-[6 mins video](https://drive.google.com/file/d/1GK1tSVRb80M0J5ckxRpsm1i2wdEY3yGN/view?usp=sharing)
+### Screenshots
+<img width="1589" height="857" alt="image" src="https://github.com/user-attachments/assets/2e5cc948-48c0-4102-9301-0a19f5b8dbfe" />
+<img width="1462" height="900" alt="image" src="https://github.com/user-attachments/assets/49b9978d-5219-474b-9102-055620926965" />
+
 
 ### Tetris Functionalities
 The player will be presented with a grid-based game board where Tetriminos fall from the top of the screen.
